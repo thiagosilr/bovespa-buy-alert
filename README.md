@@ -72,7 +72,8 @@ do
 done
 ```
 
-Basicamente o script lê o arquivo de configuração e realiza um requisição a API para obter o valor das ações listadas no arquivo. Após obter o valor o script verifica se o preço atual da ação está dentro do intervalo de preço min ou max configurados. Se o preço estiver dentro do intervalo é gerado um notificação no aparelho informando:
+Basicamente o script lê o arquivo de configuração e realiza um requisição a API para obter o valor das ações listadas no arquivo. Após obter o valor o script verifica se o preço atual da ação está dentro do intervalo de preço min ou max configurados. Se o preço estiver dentro do intervalo é gerado uma notificação no aparelho informando:
+![notification](https://user-images.githubusercontent.com/1113381/169615207-e5a15b47-91a5-4d3f-9b6e-9be116a6dd80.png)
 
 ## Agendando o script para que ele execute a cada hora
 Execute o seguinte comando para incluir um agendamento para executar o nosso script automaticamente:
