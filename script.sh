@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-config=$(cat ~/bovespa-buy-alert/companies-monitor.conf)
+config=$(cat ~/bovespa-buy-alert/config.json)
 apiKey=$(echo $config | jq 'apiKey')
 
 companyTotal=$(echo $config | jq '.companys | length')
